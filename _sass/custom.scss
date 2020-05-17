@@ -29,6 +29,15 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 100%;
+    filter: brightness(50%);
+}
+
+.banner-text {
+    width: 100%;
+    position: absolute;
+    top: 35vh;
+    color: wheat;
+    text-align: center;
 }
 
 .image-wrapper {
