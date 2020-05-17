@@ -1,0 +1,8 @@
+# Site navigation links
+
+ - title: Wabi Sabi
+   url: "#wabisabi"
+ - title: Obras
+   url: "#obras"
+ - title: Contacto
+   url: "#contacto"

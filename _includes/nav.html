@@ -1,0 +1,23 @@
+<!-- Top navbar -->
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper black-text white">
+            <a href="{{ site.url }}" class="black-text brand-logo">
+                <img src="{{ site.url }}/assets/img/favicon.png?v=2" alt="" class="">
+                <span>
+                    {{ site.title }}
+                </span>
+            </a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger">
+                <i class="fas fa-bars mainnav-icon black-text"></i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                {% for link in site.data.navigation %}
+                <li>
+                    <a href="{{ site.url }}{{ link.url }}" class="black-text"> {{ link.title }} </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+</div>

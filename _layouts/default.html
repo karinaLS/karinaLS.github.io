@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body>
+    <div class="body">
+
+        {% include nav.html %}
+        {% include sidenav.html %}
+
+        {% include banner.html %}
+
+        <div id="gallery">
+            <div class="container">
+                {% include image.html img="05.jpg"%}
+                {% include image.html img="04.jpg"%}
+
+                <div class="text-wrapper">
+                    <p>{{ site.data.text[0].content }}</p>
+                </div>
+            </div>
+
+            <div class="parallax-container">
+                <div class="parallax"><img src="/assets/img/obras/03.jpg"></div>
+            </div>
+
+            <div class="container">
+                {% include image.html img="11.jpg"%}
+                {% include image.html img="12.jpg"%}
+
+                <div class="text-wrapper">
+                    <p>{{ site.data.text[1].content }}</p>
+                </div>
+            </div>
+
+            <div class="parallax-container">
+                <div class="parallax"><img src="/assets/img/obras/01.jpg"></div>
+            </div>
+            <div class="container">
+                {% include image.html img="13.jpg"%}
+
+                <div class="text-wrapper">
+                    <p>{{ site.data.text[2].content }}</p>
+                </div>
+
+                {% include image.html img="01.jpg"%}
+            </div>
+
+            <div class="parallax-container">
+                <div class="parallax"><img src="/assets/img/obras/06.jpg"></div>
+            </div>
+
+            <div class="container">
+                {% include image.html img="11.jpg"%}
+                {% include image.html img="02.jpg"%}
+            </div>
+        </div>
+
+        <!-- FIRMA -->
+        <div class="image-wrapper">
+            <img class="responsive-img" width="50" src="{{ site.url }}/assets/img/sig.png">
+        </div>
+
+        <!-- Contact -->
+
+        {% include footer.html %}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+// Custom styles
+.brand-logo {
+    img {
+        max-height: 50px;
+        vertical-align: sub;
+        margin: 0 15px;
+    }
+
+    @media #{$small} {
+        span {
+            display: none;
+        }
+    }
+}
+
+.banner-wrapper {
+    position: relative;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translate3d(0px, 0px, 0px) scale(1, 1);
+}
+
+.banner-image {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100%;
+}
+
+.image-wrapper {
+    margin: 45px 0;
+    max-width: 100%;
+    position: relative;
+    text-align: -webkit-center;
+    
+    img {
+        text-align: center;
+    }
+}
+
+.container {
+    position: relative;
+}
+
+.text-wrapper {
+    margin: 0 100px 75px 100px;
+    font-size: 19px;
+    
+    @media #{$small} {
+        margin: inherit;
+    }
+}
+
+
+// Custom Selection
+::selection {
+    background: #ccc;
+}
+
+// Custom Scrollbar
+// width
+::-webkit-scrollbar {
+  width: 6px;
+}
+ 
+// Handle
+::-webkit-scrollbar-thumb {
+  background: #4b4b4b; 
+  border-radius: 10px;
+}
+
+// Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: #adadad; 
+}
