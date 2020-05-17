@@ -32,3 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         fadeSpeed: 300,
     });
 });
+
+window.addEventListener("hashchange", function () {
+    window.scrollTo(window.scrollX, window.scrollY - 100);
+});

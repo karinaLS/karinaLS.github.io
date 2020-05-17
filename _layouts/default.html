@@ -11,6 +11,7 @@
 
         {% include banner.html %}
 
+        <!-- Body -->
         <div id="gallery">
             <div class="container">
                 {% include image.html img="05.jpg"%}
@@ -57,23 +58,32 @@
             </div>
         </div>
 
-        <!-- FIRMA -->
-        <div class="image-wrapper">
-            <img class="responsive-img" width="50" src="{{ site.url }}/assets/img/sig.png">
-        </div>
 
-        <!-- Contact -->
-        <div class="container" id="contact">
-            <div class="text-wrapper">
-                <h5>Find Karina Lopez Sitja in social media</h5>
-                <ul>
-                    <li>
-                        <a href="{{site.facebook_link}}"> Facebook </a>
-                    </li>
-                    <li>
-                        <a href="{{site.facebook_link}}"> Facebook </a>
-                    </li>
-                </ul>
+        <div id="contact">
+            <!-- FIRMA -->
+            <div class="image-wrapper">
+                <img class="responsive-img" width="50" src="{{ site.url }}/assets/img/sig.png">
+            </div>
+
+            <!-- Contact -->
+            <div class="container">
+                <div class="text-wrapper">
+                    <h5>Find Karina Lopez Sitja in social media</h5>
+                    <ul>
+                        <li>
+                            <a href="{{site.facebook_link}}"> Facebook </a>
+                        </li>
+                        <li>
+                            <a href="{{site.instagram_link}}"> Instagram </a>
+                        </li>
+                        <li>
+                            <a href="{{site.cv_link}}"> CV / Awards </a>
+                        </li>
+                        <li>
+                            <a href="mailto:{{site.email}}"> Email </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 
