@@ -34,7 +34,7 @@ catalog_link: https://photos.google.com/share/AF1QipN9JGenkP6loLqoMXCYHkEiHGb81q
 email: karinalopezsitja@gmail.com
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 

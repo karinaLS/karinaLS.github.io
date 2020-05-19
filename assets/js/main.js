@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
         popupHeight: 150,
         popupLoaderText: '',
         usePopupLoader: true,
-        onPopupClose: function () { document.getElementsByClassName("body")[0].classList.remove('modal-active'); },
-        onPopupOpen: function () { document.getElementsByClassName("body")[0].classList.add('modal-active'); },
+        onPopupClose: function () { document.getElementsByClassName("body")[0].classList.remove('modal-active-poptrox'); },
+        onPopupOpen: function () { document.getElementsByClassName("body")[0].classList.add('modal-active-poptrox'); },
         caption: function ($a) {
 
             var s = '';
