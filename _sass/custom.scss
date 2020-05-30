@@ -95,3 +95,16 @@
     margin-right: 15px;
     margin-left: 10px;
 }
+
+.foot-icons {
+    display: flex;
+    place-content: center;
+    
+    :hover {
+        color: black;
+    }
+    svg {
+        width: 60px !important;
+        height: 60px;
+    }
+}
